@@ -63,7 +63,7 @@ class RunnableImpl implements Runnable {
         for (int i = 0; i < 100; i++) {
             if(i % 10 == 0){
                 System.out.println("---------");
-                System.out.println(i + " ýòî ÷èñëî äåëèòñÿ íà 10 áåç îñòàòêà");
+                System.out.println(i + " ÑÑ‚Ð¾ Ñ‡Ð¸ÑÐ»Ð¾ Ð´ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 10 Ð±ÐµÐ· Ð¾ÑÑ‚Ð°Ñ‚ÐºÐ°");
                 System.out.println("---------");
                 try {
                     Thread.sleep(1000);
@@ -71,7 +71,7 @@ class RunnableImpl implements Runnable {
                     throw new RuntimeException(e);
                 }
             } else {
-                System.out.println(i + " ýòî ÷èñëî íå äåëèòñÿ íà 10 áåç îñòàòêà");
+                System.out.println(i + " ÑÑ‚Ð¾ Ñ‡Ð¸ÑÐ»Ð¾ Ð½Ðµ Ð´ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 10 Ð±ÐµÐ· Ð¾ÑÑ‚Ð°Ñ‚ÐºÐ°");
             }
         }
     }
